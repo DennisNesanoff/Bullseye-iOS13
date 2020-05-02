@@ -101,12 +101,15 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="roundLabel" destination="TUO-wj-jgB" id="sTC-gU-Grw"/>
+                        <outlet property="scoreLabel" destination="XCB-n0-33V" id="QGe-vg-1cW"/>
                         <outlet property="slider" destination="5Z8-Va-BKO" id="Atc-Su-iZn"/>
+                        <outlet property="targetLabel" destination="QFh-bZ-wqk" id="epz-iQ-Rec"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="138.61607142857142" y="137.68115942028987"/>
+            <point key="canvasLocation" x="242" y="96"/>
         </scene>
     </scenes>
     <resources>
